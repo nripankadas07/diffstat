@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffstat"
+version = "1.0.0"
+description = "Compute unified diff statistics: additions, deletions, and file changes"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "Nripanka Das", email = "nripankadas@gmail.com"}]
+keywords = ["diff", "statistics", "unified-diff", "git", "patch"]
+
+[project.urls]
+Homepage = "https://github.com/nripankadas07/diffstat"
+Repository = "https://github.com/nripankadas07/diffstat"
+
+[tool.setuptools]
+packages = ["diffstat"]
+package-dir = {"" = "src"}
